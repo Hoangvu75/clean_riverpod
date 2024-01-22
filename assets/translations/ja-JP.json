@@ -1,0 +1,115 @@
+{
+  "general": {
+    "light_mode": "ライトモード",
+    "dark_mode": "ダークモード",
+    "system_mode": "システムモード",
+    "theme_mode": "テーマモード",
+    "light": "ライト",
+    "dark": "ダーク",
+    "next": "次へ",
+    "welcome": "ようこそ",
+    "get_started": "始めましょう",
+    "language": "言語",
+    "settings": "設定",
+    "confirm": "確認",
+    "cancel": "キャンセル",
+    "notification": "通知",
+    "error": "エラー"
+  },
+  "navigation_bar": {
+    "meter": "メーター",
+    "data": "データ",
+    "settings": "設定"
+  },
+  "intro": {
+    "choose_theme": "お好みのテーマを選択",
+    "choose_language": "言語を選択",
+    "intro_title_0": "ようこそ",
+    "intro_body_0": "私たちの使命は、あなたのニーズに最適なサウンドメーターを見つけることをお手伝いすることです。さまざまなサウンドメータータイプを今すぐ探索しましょう！",
+    "intro_title_1": "素晴らしいテーマモード",
+    "intro_body_1": "私たちは、あなたの経験をより快適にするために、ライトとダークの両方のテーマモードを提供します。",
+    "intro_title_2": "マルチ言語システム",
+    "intro_body_2": "言語の障壁なくアプリを使用できるように、マルチ言語システムをサポートしています。"
+  },
+  "settings": {
+    "search": "設定を検索",
+    "privacy_policy": "プライバシーポリシー",
+    "about_us": "私たちに関しては",
+    "more_info_about_us": "私たちについての詳細情報",
+    "rate_us": "私たちを評価する",
+    "rate_us_on_app_store": "App Storeで私たちを評価する",
+    "rate_us_on_play_store": "Playストアで私たちを評価する",
+    "share": "シェア",
+    "share_our_app": "私たちのアプリを共有する",
+    "clear_cache": "キャッシュをクリア",
+    "clear_data_of_local_storage": "ローカルストレージのデータをクリア",
+    "feedback": "フィードバック",
+    "send_us_feedback": "フィードバックを送信する",
+    "contact": "連絡先",
+    "contact_us_for_support": "サポートのために私たちに連絡してください",
+    "version": "バージョン",
+    "version_info": "バージョン情報",
+    "write_your_feedback": "フィードバックを書く。。。",
+    "your_feedback_sent": "フィードバックが送信されました",
+    "your_feedback_sent_desc": "フィードバックを送信していただきありがとうございます。私たちはあなたのフィードバックを読んで、あなたの経験を改善するために最善を尽くします。",
+    "feedback_empty": "フィードバックを空にすることはできません",
+    "not_supported_feature": "この機能はサポートされていません",
+    "clear_cache_confirm": "キャッシュをクリアしてもよろしいですか? これにより、アプリのパフォーマンスが低下する可能性があります。",
+    "clear_cache_success": "キャッシュが正常にクリアされました"
+  },
+  "language_settings": {
+    "title": "言語設定",
+    "select_language": "好みの言語を選択してください"
+  },
+  "theme_mode_settings": {
+    "title": "テーマモード設定",
+    "select_theme_mode": "好みのテーマモードを選択してください"
+  },
+  "about_us": {
+    "title": "私たちについて",
+    "paragraph_1_title": "私たちは誰ですか？",
+    "paragraph_1_body": "私たちはMoonfactoryです - ベトナムと日本に拠点を置くソフトウェア開発会社です。モバイル、フロントエンド＆バックエンド開発が私たちのコアテクノロジーです。経験豊富な開発者、デザイナー、テスターのチームです。",
+    "paragraph_2_title": "私たちは何をしていますか？",
+    "paragraph_2_body": "私たちはクライアントが素晴らしい製品を構築するのを助けるための使命を持っています。私たちは単なるソフトウェア開発会社ではありません、私たちは素晴らしい製品を構築することに情熱を持った経験豊富な開発者、デザイナー、テスターのチームです。ゼロから製品を構築するお手伝いをすることも、既存の製品のスケールアップをお手伝いすることもできます。",
+    "paragraph_3_title": "私たちにどうやって連絡しますか？",
+    "paragraph_3_body": "ご質問がある場合は、メールでお問い合わせください："
+  },
+  "version": {
+    "title": "バージョン情報",
+    "current_version": "現在のバージョン",
+    "released_date": "リリース日"
+  },
+  "data": {
+    "search": "データの検索",
+    "current_sound_data": "現在の音声データ",
+    "current_status": "現在のステータス",
+    "intensity": "強度",
+    "frequency": "頻度",
+    "level": "レベル",
+    "equivalent": "同等"
+  },
+  "details": {
+    "title": "データ詳細",
+    "min": "最小",
+    "max": "最大の",
+    "avg": "中くらい",
+    "name": "名前",
+    "date": "日付",
+    "measurement_time": "測定時間",
+    "environment": "環境",
+    "location": "位置",
+    "device": "デバイス",
+    "delete": "消去"
+  },
+  "home": {
+    "sound_level": "音量",
+    "faint": "かすかな",
+    "moderate_to_quiet": "穏やかな〜静かな",
+    "loud": "大きい",
+    "very_loud": "とても大きい",
+    "extremely_loud": "非常に大きい",
+    "min": "最小",
+    "max": "最大の",
+    "avg": "中くらい"
+  }
+}

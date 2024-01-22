@@ -1,0 +1,115 @@
+{
+  "general": {
+    "light_mode": "Nền sáng",
+    "dark_mode": "Nền tối",
+    "system_mode": "Chế độ hệ thống",
+    "theme_mode": "Chế độ nền",
+    "light": "Sáng",
+    "dark": "Tối",
+    "next": "Tiếp theo",
+    "welcome": "Chào mừng",
+    "get_started": "Bắt đầu",
+    "language": "Ngôn ngữ",
+    "settings": "Cài đặt",
+    "confirm": "Xác nhận",
+    "cancel": "Hủy",
+    "notification": "Thông báo",
+    "error": "Lỗi"
+  },
+  "navigation_bar": {
+    "meter": "Máy đo",
+    "data": "Dữ liệu",
+    "settings": "Cấu hình"
+  },
+  "intro": {
+    "choose_theme": "Chọn chế độ nền",
+    "choose_language": "Chọn ngôn ngữ",
+    "intro_title_0": "Chào mừng",
+    "intro_body_0": "Nhiệm vụ của chúng tôi là giúp bạn tìm máy đo âm thanh tốt nhất. Hãy khám phá ngay các dịch vụ tốt nhất!",
+    "intro_title_1": "Chế độ nền tuyệt vời",
+    "intro_body_1": "Chúng tôi cung cấp cho bạn cả chế độ nền sáng và tối để trải nghiệm của bạn thoải mái hơn.",
+    "intro_title_2": "Hệ thống đa ngôn ngữ",
+    "intro_body_2": "Chúng tôi hỗ trợ hệ thống đa ngôn ngữ để đảm bảo bạn có thể sử dụng ứng dụng của chúng tôi một cách dễ dàng."
+  },
+  "settings": {
+    "search": "Tìm kiếm cài đặt",
+    "privacy_policy": "Chính sách bảo mật",
+    "about_us": "Về chúng tôi",
+    "more_info_about_us": "Thêm thông tin về chúng tôi",
+    "rate_us": "Đánh giá chúng tôi",
+    "rate_us_on_app_store": "Đánh giá chúng tôi trên App Store",
+    "rate_us_on_play_store": "Đánh giá chúng tôi trên Play Store",
+    "share": "Chia sẻ",
+    "share_our_app": "Chia sẻ ứng dụng của chúng tôi",
+    "clear_cache": "Xóa bộ nhớ cache",
+    "clear_data_of_local_storage": "Xóa dữ liệu của bộ nhớ đệm",
+    "feedback": "Phản hồi",
+    "send_us_feedback": "Gửi phản hồi cho chúng tôi",
+    "contact": "Liên hệ",
+    "contact_us_for_support": "Liên hệ với chúng tôi để được hỗ trợ",
+    "version": "Phiên bản",
+    "version_info": "Thông tin phiên bản",
+    "write_your_feedback": "Viết phản hồi của bạn...",
+    "your_feedback_sent": "Phản hồi của bạn đã được gửi",
+    "your_feedback_sent_desc": "Cảm ơn bạn đã gửi phản hồi cho chúng tôi. Chúng tôi sẽ xem xét phản hồi của bạn và cố gắng cải thiện ứng dụng của chúng tôi.",
+    "feedback_empty": "Phản hồi không được để trống",
+    "not_supported_feature": "Tính năng này hiện không được hỗ trợ",
+    "clear_cache_confirm": "Bạn có chắc chắn muốn xóa bộ nhớ cache không? Bạn sẽ mất tất cả dữ liệu của bộ nhớ đệm.",
+    "clear_cache_success": "Xóa bộ nhớ cache thành công"
+  },
+  "language_settings": {
+    "title": "Cài đặt ngôn ngữ",
+    "select_language": "Chọn ngôn ngữ ưa thích của bạn"
+  },
+  "theme_mode_settings": {
+    "title": "Cài đặt chế độ nền",
+    "select_theme_mode": "Chọn chế độ nền ưa thích của bạn"
+  },
+  "about_us": {
+    "title": "Về Chúng Tôi",
+    "paragraph_1_title": "Chúng tôi là ai?",
+    "paragraph_1_body": "Chúng tôi là Moonfactory - một công ty phát triển phần mềm có trụ sở tại Việt Nam và Nhật Bản. Phát triển Mobile, Frontend & Backend là công nghệ cốt lõi của chúng tôi. Chúng tôi là một đội ngũ các nhà phát triển, nhà thiết kế và nhà kiểm thử dày dặn kinh nghiệm.",
+    "paragraph_2_title": "Chúng tôi làm gì?",
+    "paragraph_2_body": "Chúng tôi có sứ mệnh giúp khách hàng xây dựng những sản phẩm tuyệt vời. Chúng tôi không chỉ là một công ty phát triển phần mềm, chúng tôi là một đội ngũ các nhà phát triển, nhà thiết kế và nhà kiểm thử đầy đam mê với việc xây dựng những sản phẩm tuyệt vời. Chúng tôi ở đây để giúp bạn xây dựng sản phẩm từ đầu hoặc giúp bạn mở rộng sản phẩm hiện có của mình.",
+    "paragraph_3_title": "Liên hệ với chúng tôi như thế nào?",
+    "paragraph_3_body": "Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ với chúng tôi qua email:"
+  },
+  "version": {
+    "title": "Thông tin phiên bản",
+    "current_version": "Phiên bản hiện tại",
+    "released_date": "Ngày phát hành"
+  },
+  "data": {
+    "search": "Tìm kiếm dữ liệu",
+    "current_sound_data": "Dữ liệu âm thanh hiện tại",
+    "current_status": "Trạng thái hiện tại",
+    "intensity": "Cường độ",
+    "frequency": "Tầng số",
+    "level": "Mức độ",
+    "equivalent": "Tương đương"
+  },
+  "details": {
+    "title": "Chi tiết dữ liệu",
+    "min": "MIN",
+    "max": "MAX",
+    "avg": "AVG",
+    "name": "Tên",
+    "date": "Ngày",
+    "measurement_time": "Thời gian đo",
+    "environment": "Môi trường",
+    "location": "Địa điểm",
+    "device": "Thiết bị",
+    "delete": "Xóa"
+  },
+  "home": {
+    "sound_level": "Mức âm thanh",
+    "faint": "Yếu",
+    "moderate_to_quiet": "Trung bình đến yên tĩnh",
+    "loud": "To",
+    "very_loud": "Rất to",
+    "extremely_loud": "Cực kỳ to",
+    "min": "Nhỏ nhất",
+    "max": "Lớn nhất",
+    "avg": "Trung bình"
+  }
+}

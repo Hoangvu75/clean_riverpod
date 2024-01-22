@@ -1,0 +1,115 @@
+{
+  "general": {
+    "light_mode": "Light mode",
+    "dark_mode": "Dark mode",
+    "system_mode": "System mode",
+    "theme_mode": "Theme mode",
+    "light": "Light",
+    "dark": "Dark",
+    "next": "Next",
+    "welcome": "Welcome",
+    "get_started": "Get Started",
+    "language": "Language",
+    "settings": "Settings",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "notification": "Notification",
+    "error": "Error"
+  },
+  "navigation_bar": {
+    "meter": "Meter",
+    "data": "Data",
+    "settings": "Settings"
+  },
+  "intro": {
+    "choose_theme": "Choose your theme",
+    "choose_language": "Choose your language",
+    "intro_title_0": "Welcome",
+    "intro_body_0": "Our mission is to help you find the best sound meter for your needs. Explore our various sound meter type now!",
+    "intro_title_1": "Great theme mode",
+    "intro_body_1": "We provide you both light and dark theme mode to make your experience more comfortable.",
+    "intro_title_2": "Multi-language system",
+    "intro_body_2": "We support multi-language system to make sure you can use our app without any language barrier."
+  },
+  "settings": {
+    "search": "Search for settings",
+    "privacy_policy": "Privacy policy",
+    "about_us": "About us",
+    "more_info_about_us": "More information about us",
+    "rate_us": "Rate us",
+    "rate_us_on_app_store": "Rate us on App Store",
+    "rate_us_on_play_store": "Rate us on Play Store",
+    "share": "Share",
+    "share_our_app": "Share our app",
+    "clear_cache": "Clear cache",
+    "clear_data_of_local_storage": "Clear data of local storage",
+    "feedback": "Feedback",
+    "send_us_feedback": "Send us feedback",
+    "contact": "Contact",
+    "contact_us_for_support": "Contact us for support",
+    "version": "Version",
+    "version_info": "Version info",
+    "write_your_feedback": "Write your feedback...",
+    "your_feedback_sent": "Your feedback has been sent!",
+    "your_feedback_sent_desc": "Thank you for your feedback. We will try our best to improve our app.",
+    "feedback_empty": "Feedback cannot be empty!",
+    "not_supported_feature": "This feature is not supported yet!",
+    "clear_cache_confirm": "Are you sure to clear cache of your app? This will remove all your in-app data.",
+    "clear_cache_success": "Clear cache successfully!"
+  },
+  "language_settings": {
+    "title": "Language Settings",
+    "select_language": "Select your preferred language"
+  },
+  "theme_mode_settings": {
+    "title": "Theme Mode Settings",
+    "select_theme_mode": "Select your preferred theme mode"
+  },
+  "about_us": {
+    "title": "About us",
+    "paragraph_1_title": "Who are we?",
+    "paragraph_1_body": "We are Moonfactory - a software development company based in Vietnam and Japan. Mobile, Frontend & Backend development is our core technologies. We are a team of experienced developers, designers, and testers.",
+    "paragraph_2_title": "What do we do?",
+    "paragraph_2_body": "We are on a mission to help our clients to build great products. We are not just a software development company, we are a team of experienced developers, designers, and testers who are passionate about building great products. We are here to help you to build your product from scratch or to help you to scale your existing product.",
+    "paragraph_3_title": "How to contact us?",
+    "paragraph_3_body": "If you have any questions, please contact us via email:"
+  },
+  "version": {
+    "title": "Version",
+    "current_version": "Current version",
+    "released_date": "Released date"
+  },
+  "data": {
+    "search": "Search for data",
+    "current_sound_data": "Current sound data",
+    "current_status": "Current status",
+    "intensity": "Intensity",
+    "frequency": "Frequency",
+    "level": "Level",
+    "equivalent": "Equivalent"
+  },
+  "details": {
+    "title": "Data Details",
+    "min": "MIN",
+    "max": "MAX",
+    "avg": "AVG",
+    "name": "Name",
+    "date": "Date",
+    "measurement_time": "Measurement time",
+    "environment": "Environment",
+    "location": "Location",
+    "device": "Device",
+    "delete": "Delete"
+  },
+  "home": {
+    "sound_level": "Sound level",
+    "faint": "Faint",
+    "moderate_to_quiet": "Moderate to quiet",
+    "loud": "Loud",
+    "very_loud": "Very loud",
+    "extremely_loud": "Extremely loud",
+    "min": "Min",
+    "max": "Max",
+    "avg": "Avg"
+  }
+}

@@ -1,5 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -17,6 +19,10 @@ Future<void> main() async {
   Hive.defaultDirectory = (await getApplicationDocumentsDirectory()).path;
   await EasyLocalization.ensureInitialized();
   await dotenv.load(fileName: Assets.envApi);
+  LicenseRegistry.addLicense(() async* {
+    final license = await rootBundle.loadString(Assets.fontsOFL);
+    yield LicenseEntryWithLineBreaks(['google_fonts'], license);
+  });
 
   runApp(
     EasyLocalization(
@@ -27,9 +33,7 @@ Future<void> main() async {
       path: GeneralConstants.translationPath,
       saveLocale: false,
       fallbackLocale: LocaleUtils.appLocale.en_US.locale,
-      child: const ProviderScope(
-        child: App(),
-      ),
+      child: const ProviderScope(child: App()),
     ),
   );
 }

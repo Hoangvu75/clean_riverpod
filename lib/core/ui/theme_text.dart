@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const _fontFamily = 'Roboto';
+const _fontFamily = 'Poppins';
 
 @immutable
 class ThemeText extends ThemeExtension<ThemeText> {

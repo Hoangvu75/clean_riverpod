@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../core/extensions/context.extension.dart';
 import '../controllers/main.controller.dart';
 
 class MainPage extends StatefulWidget {
@@ -51,7 +52,7 @@ class _MainPageState extends State<MainPage> {
                               children: [
                                 Text(
                                   data.activity.toString(),
-                                  style: const TextStyle(fontSize: 20),
+                                  style: context.textStyle.H4,
                                 ),
                                 Text(
                                   data.type.toString(),

@@ -3,6 +3,7 @@ class Assets {
   Assets._();
 
   static const String audioAudio1 = 'assets/audio/audio1.mp3';
+  static const String envApi = 'assets/env/api.env';
   static const String imageImgAppIcon = 'assets/image/img_app_icon.png';
   static const String imageImgAppIconBorder = 'assets/image/img_app_icon_border.png';
   static const String lottiesMeterDark = 'assets/lotties/meter_dark.json';

@@ -3,6 +3,9 @@ import 'dart:io';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
+import '../../app.dart';
+import '../../infrastructure/services/local_storage_service.dart';
+
 class LocaleUtils {
   LocaleUtils._();
 
@@ -22,7 +25,9 @@ class LocaleUtils {
     required BuildContext context,
     required Locale locale,
   }) {
+    if (context.locale == locale) return;
     context.setLocale(locale);
+    App.find<LocalStorageService>().cacheLocaleString(locale);
   }
 
   static Locale? stringToLocale(String? localeString) {

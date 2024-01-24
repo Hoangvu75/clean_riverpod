@@ -31,6 +31,10 @@ dependencies:
   json_annotation: ^4.8.1
   pretty_dio_logger: ^1.3.1
   retrofit: ^4.0.3
+  flutter_dotenv: ^5.1.0
+  equatable: ^2.0.5
+  get_it: ^7.6.7
+  web_socket_channel: ^2.4.0
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +58,7 @@ flutter:
     - assets/audio/
     - assets/lotties/
     - assets/translations/
+    - assets/env/
 
 flutter_native_splash:
   color: '#FFFFFF'
@@ -72,3 +77,4 @@ flutter_launcher_icons:
 #  dart run flutter_native_splash:create
 #  flutter pub run flutter_launcher_icons
 #  flutter pub run easy_localization:generate -S assets/translations -f keys -o locale_keys.g.dart
+#  dart run build_runner watch --delete-conflicting-outputs

@@ -1,12 +1,14 @@
 import 'package:dio/dio.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
+import '../../../core/constants/constants_export.dart';
+
 abstract class IBaseApiClient {
   late final Dio dio;
   late final String baseURL;
 
   IBaseApiClient() {
-    baseURL = "http://www.boredapi.com";
+    baseURL = ApiUrlConstants.BASE_URL;
     dio = Dio();
     dio.options = BaseOptions(
       baseUrl: baseURL,

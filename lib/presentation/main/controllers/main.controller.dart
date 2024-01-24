@@ -2,10 +2,8 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../core/usecase/iusecase.dart';
 import '../../../core/utils/locale_utils.dart';
 import '../../../domain/entities/models/activity/activity.dart';
-import '../../../domain/usecases/get_btc_stream.usecase.dart';
 import '../../../generated/locale_keys.g.dart';
 import '../../../infrastructure/providers/providers_export.dart';
 

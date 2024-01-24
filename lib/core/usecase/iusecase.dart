@@ -1,10 +1,11 @@
-import 'package:equatable/equatable.dart';
+abstract class IUsecase<Type> {
+  Future<Type> asyncCall() => throw UnimplementedError();
 
-abstract class IUseCase<Type, Params> {
-  Future<Type> call(Params params);
+  Type call() => throw UnimplementedError();
 }
 
-class NoParams extends Equatable {
-  @override
-  List<Object> get props => [];
+abstract class IUsecaseWithParams<Type, Params> {
+  Future<Type> asyncCall(Params params) => throw UnimplementedError();
+
+  Type call(Params params) => throw UnimplementedError();
 }

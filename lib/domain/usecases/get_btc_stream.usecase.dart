@@ -2,11 +2,11 @@ import '../../app.dart';
 import '../../core/usecase/iusecase.dart';
 import '../../data/source/sources_export.dart';
 
-class GetBtcStreamUsecase implements IUseCase<Stream<dynamic>, NoParams> {
+class GetBtcStreamUsecase extends IUsecase<Stream<dynamic>> {
   final CoinSocket socket = App.find();
 
   @override
-  Future<Stream<dynamic>> call(NoParams params) async {
+  Stream<dynamic> call() {
     return socket.getBtcSocketData();
   }
 }

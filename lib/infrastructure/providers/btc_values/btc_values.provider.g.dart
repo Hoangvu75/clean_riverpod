@@ -6,7 +6,7 @@ part of 'btc_values.provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$btcValuesHash() => r'8a0d2fdb59e412d4238d65dbaa7ab83760f62e3d';
+String _$btcValuesHash() => r'3bf57d20c7ec3e2c00e5a864452184a6b5d9ab1a';
 
 /// See also [BtcValues].
 @ProviderFor(BtcValues)

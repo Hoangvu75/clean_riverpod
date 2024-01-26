@@ -6,7 +6,7 @@ import '../../services/local_storage_service.dart';
 
 part 'app_theme_mode.provider.g.dart';
 
-@riverpod
+@Riverpod()
 class AppThemeMode extends _$AppThemeMode {
   final LocalStorageService localStorageService = App.find();
 

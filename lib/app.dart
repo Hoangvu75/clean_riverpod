@@ -24,19 +24,22 @@ class App extends MaterialApp {
   static void lazyPut<T extends Object>(T instance) {
     if (!GetIt.I.isRegistered<T>()) {
       GetIt.I.registerLazySingleton<T>(() => instance);
-      debugPrint("[GetIt] Register $T");
+      debugPrint("[GetIt]: Register $T");
     }
   }
 
   static void put<T extends Object>(T instance) {
     if (!GetIt.I.isRegistered<T>()) {
       GetIt.I.registerSingleton<T>(instance);
-      debugPrint("[GetIt] Register $T");
+      debugPrint("[GetIt]: Register $T");
     }
   }
 
   static T find<T extends Object>() {
-    return GetIt.I.get<T>();
+    if (GetIt.I.isRegistered<T>()) {
+      return GetIt.I.get<T>();
+    }
+    throw Exception("[GetIt]: $T is not registered");
   }
 }
 
@@ -107,7 +110,7 @@ class AppState extends State<App> with WidgetsBindingObserver {
     App.lazyPut(ActivityApiClient());
 
     // socket
-    App.lazyPut(CoinSocket());
+    App.lazyPut(BtcSocket());
 
     // repositories
     App.lazyPut(ActivityRepository(apiClient: App.find<ActivityApiClient>()));

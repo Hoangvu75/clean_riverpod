@@ -1,13 +1,15 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../../core/utils/locale_utils.dart';
 import '../../../domain/entities/models/activity/activity.dart';
 import '../../../generated/locale_keys.g.dart';
+import '../../../infrastructure/navigation/app_pages.dart';
 import '../../../infrastructure/providers/providers_export.dart';
 
-class MainController {
+mixin class MainController {
   AsyncValue<Activity> randomActivity(WidgetRef ref) {
     return ref.watch(getActivityProvider);
   }
@@ -40,7 +42,11 @@ class MainController {
     }
   }
 
-  List<String> btcValues(WidgetRef ref) {
+   AsyncValue<List<String>> btcValues(WidgetRef ref) {
     return ref.watch(btcValuesProvider);
+  }
+
+  void onNavigateFirst(BuildContext context) {
+    context.pushReplacement(Routes.FIRST);
   }
 }

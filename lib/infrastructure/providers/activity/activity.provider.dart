@@ -5,7 +5,7 @@ import '../../../domain/usecases/get_random_activity.usecase.dart';
 
 part 'activity.provider.g.dart';
 
-@riverpod
+@Riverpod()
 Future<Activity> getActivity(GetActivityRef ref) async {
   final getRandomActivityUseCase = GetRandomActivityUsecase();
   return getRandomActivityUseCase.asyncCall();

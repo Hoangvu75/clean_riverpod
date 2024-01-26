@@ -13,7 +13,7 @@ class AppPages {
     routes: <RouteBase>[
       _normalRoute(path: Routes.SPLASH, child: const SplashPage()),
       _normalRoute(path: Routes.MAIN, child: const MainPage()),
-      _normalRoute(path: Routes.FIRST, child: const FirstPage()),
+      _swipeableRoute(path: Routes.FIRST, child: const FirstPage()),
     ],
   );
 

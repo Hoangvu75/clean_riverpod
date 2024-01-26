@@ -47,6 +47,6 @@ mixin class MainController {
   }
 
   void onNavigateFirst(BuildContext context) {
-    context.pushReplacement(Routes.FIRST);
+    context.push(Routes.FIRST);
   }
 }
